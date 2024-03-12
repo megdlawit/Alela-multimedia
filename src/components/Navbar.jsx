@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import AboutUs from '../components/AboutUs';
+
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="hoobank" className="w-[70px] h-[70px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -22,7 +24,12 @@ const Navbar = () => {
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
+    
         ))}
+        <a href="Abouts">
+              <li >aboutus</li>
+              
+</a>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">

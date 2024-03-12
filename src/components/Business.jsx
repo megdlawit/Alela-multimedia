@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-orange`}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
@@ -22,13 +22,10 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Our Services 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      Our dedicated team of experts is enthusiastic about con- ceptualizing. coordinating, and delivering a wide range of indoor and outdoor events, spanning from concerts, fashion shows, and sports activities to poetry programs, campaigns, and more. As a socially conscious company, we have gained a reputation for organizing impactful social events that aim to bring positive change and benefit communities
       </p>
 
       <Button styles={`mt-10`} />
@@ -40,6 +37,7 @@ const Business = () =>  (
       ))}
     </div>
   </section>
+  
 );
 
 export default Business;
