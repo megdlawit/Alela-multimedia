@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,am,repo,azer,moe,cap } from "../assets";
 import { Link } from 'react-router-dom';
 import  AboutUs from "../components/AboutUs.jsx";
 export const navLinks = [
@@ -14,11 +14,6 @@ export const navLinks = [
     id: "AboutUs",
     title: "About Us",
   },
-  {
-    id: "pricing",
-    title: "Pricing",
-  },
-  
 ];
 
 export const features = [
@@ -27,48 +22,56 @@ export const features = [
     icon: star,
     title: "Media Production",
     content:
-      " we deliver exceptional video and audio productions tailored for enterprises, campaigns, and events.",
+      "Experts in audiovisual production, serving enterprises, campaigns, and events with top-tier equipment.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Corporate Communication",
+    title: "Corporate Communications",
     content:
-      "Our expertise covers a broad spectrum of communication services, ranging from content development for various me diums to media coordination. ",
+      "Corporate communications, from content creation to marketing material design and printing. ",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Website & App development",
+    title: "Innovation & Technology:",
     content:
-      "We develop cutting-edge websites and appli cations that turn ideas into impactful business drivers, using top-notch code standards and timely project delivery.",
+      "We offer cutting-edge website development and management services, catering to companies of all sizes. ",
   },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Events:",
+    content:
+      "Our passionate team excels in initiating, planning, and executing indoor and outdoor events of all sizes. ",
+  },
+
 ];
 
 export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Alela's multimedia expertise brings projects to life with creativity and precision. Their dedication to client satisfaction ensures a seamless and delightful experience.",
-    name: "Heaven Takele",
-    title: "Founder of DUE",
-    img: people01,
-  },
+  // {
+  //   id: "feedback-1",
+  //   content:
+  //     "Alela's multimedia expertise brings projects to life with creativity and precision. ",
+  //   name: "Heaven Takele",
+  //   title: "Founder of DUE",
+  //   img: people01,
+  // },
   {
     id: "feedback-2",
     content:
-      "Alela's multimedia expertise brings projects to life with creativity and precision. Their dedication to client satisfaction ensures a seamless and delightful experience.",
-    name: "Siefe Abdu",
-    title: "Founder & Leader of USP",
-    img: people02,
+      "We entrusted the development of our website to their team of professionals, confident that they would deliver something remarkable for us. However, they went above and beyond our expectations, and we are immensely grateful for their exceptional creativity and unwavering dedication in bringing our online presence to life.",
+    name: "Medina Hussein, Managing Director",
+    title: "Amenat Coffee",
+    // img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Alela's multimedia expertise brings projects to life with creativity and precision. Their dedication to client satisfaction ensures a seamless and delightful experience.",
-    name: "Kenean Debebe",
-    title: "Founder & Leader of LLE",
-    img: people03,
+      "alela has been instrumental in developing our content and managing our media engagements. Their expertise is unparalleled, and their ability to influence is truly remarkable.",
+    name: "Ambassador Ruslan Nasibov",
+    title: "Embassy of the Republic of Azerbaijan",
+    // img: people03,
   },
 ];
 
@@ -164,14 +167,38 @@ export const clients = [
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: azer,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: moe,
   },
   {
     id: "client-4",
+    logo: am,
+  },
+  {
+    id: "client-5",
+    logo: binance,
+  },
+  {
+    id: "client-6",
+    logo: coinbase,
+  },
+  {
+    id: "client-7",
     logo: dropbox,
   },
+  {
+    id: "client-8",
+    logo: repo,
+  },
+
+
+  {
+    id: "client-9",
+    logo: cap,
+  },
+
+
 ];

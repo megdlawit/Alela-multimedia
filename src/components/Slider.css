@@ -1,0 +1,66 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.Swiper {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; /* Fallback fonts */
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 600px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  background:linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d765d 100%);
+  /* filter: blur(123px); */
+  border-radius: 10px; /* Optional rounded corners */
+  /* border: 1px solid rgb(247, 247, 0); */
+  box-shadow: 0 0px 5px 0 rgba(255, 166, 0, 0.326);
+}
+
+.slide-content {
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* White text for better contrast */
+}
+
+.slide-content h1 {
+  font-weight: bolder; 
+  font-size: 50rem; 
+  font-family: "Poppins", Helvetica, Arial, sans-serif; 
+}
+
+
+.slide-content p {
+  text-align: center; 
+  padding: 2rem; 
+}
+.swiper-slide {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (min-width: 768px) {
+  .swiper-slide {
+    width: 600px;
+    height: 300px;
+  }
+}

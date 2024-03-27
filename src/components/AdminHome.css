@@ -1,0 +1,35 @@
+
+/* AdminHome.css */
+
+/* Style for the main container */
+.admin-container {
+    display: flex;
+}
+
+/* Style for the sidebar */
+.sidebar {
+    width: 250px;
+    background: linear-gradient(135deg, #FDCA0F , #d23f1a);
+    color: #fff;
+}
+
+/* Style for the sidebar items */
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style for the main content area */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.app-bar {
+    background: linear-gradient(135deg, #FDCA0F , #d23f1a);
+}
+
+/* Style for the app bar title */
+.app-bar-title {
+    margin-left: 20px;
+}

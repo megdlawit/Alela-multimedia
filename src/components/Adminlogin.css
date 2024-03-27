@@ -1,0 +1,64 @@
+
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; /* Center the card horizontally */
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .alert {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  .btn-block {
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    margin-top: 1rem; /* Add some top margin */
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #FDCA0F;
+  }
+  
+  .btn-primary:hover {
+    background-color: #948036;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 576px) {
+    .card {
+      margin-top: 50px; /* Adjust top margin for smaller screens */
+    }
+  }
+  

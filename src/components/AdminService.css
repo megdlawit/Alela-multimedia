@@ -1,0 +1,74 @@
+.admin-service-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .admin-service-container h2 {
+    text-align: center;
+  }
+  
+  .admin-service-container form {
+    margin-top: 20px;
+  }
+  
+  .admin-service-container form div {
+    margin-bottom: 10px;
+  }
+  
+  .admin-service-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .admin-service-container form input,
+  .admin-service-container form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .admin-service-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .service-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 3px;
+    color: #155724;
+  }
+  
+  .existing-services {
+    margin-top: 20px;
+  }
+  
+  .existing-services h2 {
+    text-align: center;
+  }
+  
+  .existing-services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .existing-services li {
+    margin-bottom: 10px;
+  }
+  
+  .existing-services li strong {
+    font-weight: bold;
+  }
+  

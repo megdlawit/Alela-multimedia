@@ -1,0 +1,57 @@
+/* Overall container for services with dark background */
+.ourservice {
+    background: #1d1d1d;
+    padding: 2rem;
+  }
+  
+  /* Service container for flexible layout */
+  .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    transition: all 0.3s ease-in-out; /* Smooth transition for image hover animation */
+  }
+  
+  /* Image styles for responsive sizing and hover effects */
+  .service-image {
+    width: 50%; /* Adjust based on desired image ratio */
+    height: 280px;
+    padding: 1rem;
+    object-fit: cover; /* Ensures images fill container proportionately */
+    transition: transform 0.3s ease-in-out; /* Smooth image scaling on hover */
+    cursor: pointer; /* Indicate hover interaction visually */
+  }
+  
+  /* Content styles */
+  .service-content {
+    width: 50%; /* Adjust based on desired image ratio */
+    padding: 2.5rem;
+    color: #fff; /* White text for better contrast */
+    text-align: justify; /* Improved readability for text blocks */
+  }
+  .ourservicep{
+    color: #fff; 
+    text-align: justify;
+  }
+  
+  /* Hover animation for images */
+  .service-container:hover .service-image {
+    transform: scale(1.1); /* Slightly enlarge image on hover */
+  }
+  .sban{
+    margin-top: 20px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .service-container {
+      flex-direction: column; /* Stack images and text on top of each other */
+      width: 100%; /* Ensure containers fill width */
+    }
+  
+    .service-image,
+    .service-content {
+      width: 100%; /* Images and text take up full width */
+    }
+  }
+  

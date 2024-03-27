@@ -1,18 +1,45 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.333333%;
+  max-width: 33.333333%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  margin-left: 28rem;
+  margin-bottom: 3rem;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  .col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.333333%;
-    max-width: 33.333333%;
-    padding-right: 15px;
-    padding-left: 15px;
+  100% {
+    opacity: 1;
   }
-  .header{
-   margin-left: 28rem;
-   margin-bottom: 3rem;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
   }
+  100% {
+    opacity: 0;
+  }
+}

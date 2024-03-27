@@ -23,6 +23,15 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import am from "./am.png";
+import repo from "./repo.png";
+import azer from "./azer.png";
+import moe from "./moe.png";
+import cap from "./cap.png";
+import evee from "./evee.jpg";
+import evee1 from "./evee1.jpg";
+import evee2 from "./evee2.jpg";
+import evee3 from "./evee3.jpg"
 
 export {
   airbnb,
@@ -50,4 +59,14 @@ export {
   people01,
   people02,
   people03,
+  am,
+  repo,
+  azer,
+  moe,
+  cap,
+  evee,
+  evee1,
+  evee2,
+  evee3,
+
 };

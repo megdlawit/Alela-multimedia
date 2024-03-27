@@ -22,14 +22,11 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`${nav.id}`}>{nav.title}</a>
           </li>
     
         ))}
-        <a href="Abouts">
-              <li >aboutus</li>
-              
-</a>
+
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -54,9 +51,13 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.id}`}>{nav.title}</a>
               </li>
+        
             ))}
+          
+          
+          
           </ul>
         </div>
       </div>

@@ -9,16 +9,32 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.15.13",
+    "@mui/material": "^5.15.13",
+    "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "install": "^0.13.0",
     "mdb-react-ui-kit": "^7.2.0",
     "npm": "^10.5.0",
     "react": "^18.2.0",
+    "react-accessible-dropdown-menu-hook": "^4.0.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
     "react-icons": "^5.0.1",
     "react-photo-album": "^2.3.1",
-    "react-router-dom": "^6.22.2",
-    "styled-components": "^6.1.8"
+    "react-router-dom": "^6.22.3",
+    "react-slick": "^0.30.2",
+    "recharts": "^2.12.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.8",
+    "swiper": "^11.0.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
@@ -26,6 +42,7 @@
     "@vitejs/plugin-react": "^2.0.0",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
+    "sass": "^1.71.1",
     "tailwindcss": "^3.1.6",
     "vite": "^3.0.0"
   }

@@ -12,7 +12,7 @@ const CardDeal = () => (
       Our team consists of highly talented and experienced professionals in diverse creative fields, such as photography, videography, graphic design, and more
       </p>
 
-      <Button styles={`mt-10`} />
+      {/* <Button styles={`mt-10`} /> */}
     </div>
 
     <div className={layout.sectionImg}>

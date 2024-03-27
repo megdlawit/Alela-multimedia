@@ -1,0 +1,68 @@
+.admin-testimonial-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.message {
+  margin-bottom: 20px;
+  color: green;
+}
+
+.testimonial-form {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 10px;
+}
+
+.input-field label {
+  margin-right: 10px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 8px;
+}
+
+.submit-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.testimonial-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.testimonial-details {
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

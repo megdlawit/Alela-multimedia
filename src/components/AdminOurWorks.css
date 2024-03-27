@@ -1,0 +1,39 @@
+/* AdminOurWorks.css */
+
+/* Block styles */
+.admin-our-works {
+    margin: 20px;
+  }
+  
+  /* Element styles */
+  .admin-our-works__form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .admin-our-works__label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .admin-our-works__input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .admin-our-works__button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-our-works__button:hover {
+    background-color: #45a049;
+  }
+  

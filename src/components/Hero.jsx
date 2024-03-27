@@ -10,15 +10,15 @@ const Hero = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">Wedding Photography</span>
+            <span className="text-white"> Photography</span>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-          Your <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Beacon </span>{" "}
-            <span>of Trust.</span>
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[60px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          Headline thinking<br className="sm:block hidden" />{" "}
+            {/* <span className="text-gradient">Beacon </span>{" "} */}
+            <span className="text-gradient"> hardline results. </span>
           </h1>
 
         </div>
@@ -27,7 +27,7 @@ const Hero = () => {
           of Trust.
         </h1> */}
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        we deliver exceptional video and audio productions tailored for enterprises, campaigns, and events.
+        Driven by Determination, Achieving Excellence.
         </p>
       </div>
 
