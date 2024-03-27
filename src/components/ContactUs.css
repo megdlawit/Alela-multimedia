@@ -1,48 +1,59 @@
-.contact-us {
-    background-color: #f2f2f2;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-  }
-  
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .contact-info p {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .contact-info i {
-    font-size: 1.5rem;
-    margin-right: 10px;
-    color: #333;
-  }
-  
-  .contact-info a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .contact-info a:hover {
-    text-decoration: underline;
-  }
-  
+
+.contact-us-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.form-container,
+.map-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-container h2,
+.map-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: larger;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  color: #fff;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical; /* Allow resizing for textarea */
+}
+
+/* .form-container button {
+  display: block;
+  width: 35%;
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+margin-left: 9rem; 
+} */
