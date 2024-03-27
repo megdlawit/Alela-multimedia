@@ -5,14 +5,7 @@ import ph3 from '../assets/ph3.jpg';
 import ph4 from '../assets/ph4.jpg';
 import ph5 from '../assets/ph5.jpg';
 import ph6 from '../assets/ph6.jpg';
-import { evee } from '../assets';
-import { evee1 } from '../assets';
-import { evee2 } from '../assets';
-import { evee3 } from '../assets';
-import  evee4 from '../assets/evee4.jpg';
-import  evee5 from '../assets/evee5.jpg';
-import  evee6 from '../assets/evee6.jpg';
-import  evee7 from '../assets/evee7.jpg';
+import { evee1, evee2, evee3, evee4, evee5, evee6,evee7  } from "../assets";
 import './Cards.css';
 import Button from './Button';
 import styles, { layout } from "../style";
@@ -28,12 +21,14 @@ const Cards = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setFadeIn(false); // Trigger fade out effect
+      setFadeIn(false); 
       setTimeout(() => {
         setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
-        setFadeIn(true); // Trigger fade in effect after fade out
-      }, 500); // Wait for 0.5s before changing the image
-    }, 2000); // Change image every 2 seconds
+        setFadeIn(true); 
+      }, 500); 
+    }, 2000); 
+
+
 
     return () => clearInterval(intervalId); // Cleanup on unmount
   }, [images.length]);

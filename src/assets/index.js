@@ -31,8 +31,11 @@ import cap from "./cap.png";
 import evee from "./evee.jpg";
 import evee1 from "./evee1.jpg";
 import evee2 from "./evee2.jpg";
-import evee3 from "./evee3.jpg"
-
+import evee3 from "./evee3.jpg";
+import evee4 from "./evee4.jpg";
+import evee5 from "./evee5.jpg";
+import evee6 from "./evee6.jpg";
+import evee7 from "./evee7.jpg";
 export {
   airbnb,
   bill,
@@ -68,5 +71,8 @@ export {
   evee1,
   evee2,
   evee3,
-
+  evee4,
+  evee5,
+  evee6,
+  evee7,
 };
