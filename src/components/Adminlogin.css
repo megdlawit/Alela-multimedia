@@ -10,8 +10,8 @@
   .card {
     width: 100%;
     max-width: 400px;
-    margin: 0 auto; /* Center the card horizontally */
-    margin-top: 20px; /* Add some top margin */
+    margin: 0 auto; 
+    margin-top: 20px; 
   }
   
   .card-body {
