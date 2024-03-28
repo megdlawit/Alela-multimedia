@@ -26,11 +26,11 @@ const Cards = () => {
         setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
         setFadeIn(true); 
       }, 500); 
-    }, 2000); 
+    }, 4000); 
 
 
 
-    return () => clearInterval(intervalId); // Cleanup on unmount
+    return () => clearInterval(intervalId); 
   }, [images.length]);
 
   return (
